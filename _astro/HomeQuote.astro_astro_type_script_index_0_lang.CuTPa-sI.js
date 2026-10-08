@@ -1,0 +1,1 @@
+import{n as e,r as t,s as n}from"./core.-T54lnsy.js";var r=Array.from(document.querySelectorAll(`[data-hquote-float]:not([data-hq-bound])`));r.forEach(e=>e.setAttribute(`data-hq-bound`,``)),r.length&&e.add(`${t.isDesktop} and ${t.motion}`,()=>{r.forEach(e=>{n.fromTo(e,{y:48},{y:-48,ease:`none`,scrollTrigger:{trigger:e,start:`top bottom`,end:`bottom top`,scrub:!0}})})});

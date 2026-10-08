@@ -1,0 +1,1 @@
+import{t as e}from"./attribution.zCOamYHu.js";import"./reveal.7EcBkbuK.js";try{e()}catch{}document.querySelectorAll(`[data-app-back]`).forEach(e=>{e.addEventListener(`click`,()=>{let t=!1;try{t=!!document.referrer&&new URL(document.referrer).origin===location.origin}catch{}t&&history.length>1?history.back():location.href=e.dataset.backHref||`/`})});

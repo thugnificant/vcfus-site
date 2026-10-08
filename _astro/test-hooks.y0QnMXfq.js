@@ -1,0 +1,1 @@
+var e=/^(localhost|127\.0\.0\.1|\[::1\]|::1|.+\.localhost|.+\.test)$/i;function t(){return typeof location>`u`?!1:e.test(location.hostname)}function n(){if(typeof window>`u`||!t())return{};let e=window.__VELO_TEST__;return e&&typeof e==`object`?e:{}}export{n as t};
